@@ -1,10 +1,11 @@
 import type { Metadata } from "next";
-import { Wellfleet } from "next/font/google";
+import { Poppins } from "next/font/google";
 import "./globals.css";
+import Header from "@/components/layouts/header/Header";
 
-const wellFleet = Wellfleet({
+const poppins = Poppins({
   subsets: ["latin"],
-  weight: "400",
+  weight: ["400","700"],
 });
 
 export const metadata: Metadata = {
@@ -19,7 +20,12 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={wellFleet.className}>{children}</body>
+      <body
+        className={`${poppins.className} min-h-screen max-w-[1728px] mx-auto`}
+      >
+        <Header />
+        {children}
+      </body>
     </html>
   );
 }
