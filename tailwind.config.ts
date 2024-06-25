@@ -20,6 +20,9 @@ const config: Config = {
         neutral: {
           350: "#B0B0B0",
         },
+        zinc: {
+          550: "#888888",
+        },
       },
     },
   },

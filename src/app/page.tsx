@@ -1,7 +1,9 @@
+import Tabs from "@/components/ui/tabs/Tabs";
+
 export default function Home() {
   return (
     <main>
-      <h1>hello</h1>
+      <Tabs/>
     </main>
   );
 }
