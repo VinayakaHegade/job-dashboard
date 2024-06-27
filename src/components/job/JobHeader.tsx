@@ -3,7 +3,7 @@ import Badge from "../ui/Badge";
 
 export default function JobHeader() {
   return (
-    <div className="flex flex-col max-md:max-w-full">
+    <section className="w-full pt-9 pr-9 pl-[100px] pb-8">
       <div className="flex items-center gap-3 max-md:flex-wrap">
         <h1 className="text-[35px]/[47.25px] font-semibold text-neutral-750 max-md:max-w-full">
           Senior Product Designer
@@ -35,6 +35,6 @@ export default function JobHeader() {
           <p>$300k-$400k</p>
         </div>
       </div>
-    </div>
+    </section>
   );
 }

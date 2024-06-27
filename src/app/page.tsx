@@ -1,4 +1,6 @@
 import JobHeader from "@/components/job/JobHeader";
+import JobRequirements from "@/components/job/JobRequirements";
+import Divider from "@/components/ui/Divider";
 import Tabs from "@/components/ui/tabs/Tabs";
 
 export default function Home() {
@@ -7,9 +9,10 @@ export default function Home() {
       <Tabs />
       <section className="flex">
         <section className="w-full">
-          <section className="w-full pt-9 pr-9 pl-[100px] pb-8">
-            <JobHeader />
-          </section>
+          <JobHeader />
+          <Divider />
+          <JobRequirements />
+          <Divider />
         </section>
         <aside className="bg-gray-200 max-w-[409px] p-4 min-h-screen">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos deleniti

@@ -25,13 +25,18 @@ const config: Config = {
         },
         gray: {
           350: "#D1D1D1",
+          375: "#D0D5DD",
         },
         neutral: {
           350: "#B0B0B0",
+          550: "#6E6D6D",
           750: "#3D3D3D",
         },
         red: {
           650: "#DC4A2D",
+        },
+        slate: {
+          650: "#344054",
         },
         zinc: {
           450: "#888888",
