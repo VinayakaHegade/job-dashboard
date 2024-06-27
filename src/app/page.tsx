@@ -1,3 +1,4 @@
+import AboutTheJob from "@/components/job/AboutTheJob";
 import JobHeader from "@/components/job/JobHeader";
 import JobRequirements from "@/components/job/JobRequirements";
 import Divider from "@/components/ui/Divider";
@@ -12,6 +13,8 @@ export default function Home() {
           <JobHeader />
           <Divider />
           <JobRequirements />
+          <Divider />
+          <AboutTheJob />
           <Divider />
         </section>
         <aside className="bg-gray-200 max-w-[409px] p-4 min-h-screen">

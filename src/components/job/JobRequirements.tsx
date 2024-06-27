@@ -8,7 +8,7 @@ export default function JobRequirements() {
   ];
 
   return (
-    <section className="py-6 pr-6 pl-[100px] flex gap-16">
+    <section className="flex gap-16 py-8 pr-6 pl-[100px]">
       <div className="flex flex-col gap-2 max-w-[170px] w-full">
         <h4 className="text-sm/[18.9px] font-medium text-neutral-550">
           Skills Required
