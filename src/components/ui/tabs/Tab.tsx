@@ -14,7 +14,7 @@ export default function Tab({ label, isActive, onClick }: TabProps) {
     >
       <span className="block mb-5">{label}</span>
       {isActive && (
-        <div className=" w-7/12 h-0.5 bg-red-650 mx-auto -mb-0.5"></div>
+        <div className=" w-[55.55%] h-0.5 bg-red-650 mx-auto -mb-0.5"></div>
       )}
     </button>
   );

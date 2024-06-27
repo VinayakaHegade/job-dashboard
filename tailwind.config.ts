@@ -18,6 +18,7 @@ const config: Config = {
       colors: {
         logobg: "var(--logo-bg)",
         border: "var(--border)",
+        background: "var(--background)",
         emerald: {
           75: "#ECFDF3",
           250: "#ABEFC6",
@@ -30,6 +31,7 @@ const config: Config = {
         neutral: {
           350: "#B0B0B0",
           550: "#6E6D6D",
+          650: "#4F4F4F",
           750: "#3D3D3D",
         },
         red: {
