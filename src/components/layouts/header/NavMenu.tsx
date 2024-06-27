@@ -10,18 +10,18 @@ export default function NavMenu() {
 
   const menuItems: MenuItem[] = [
     {
-      icon: "message-square.svg",
+      icon: "icons/message-square.svg",
       text: "Messages",
       link: "#",
       hasNotification: true,
     },
     {
-      icon: "coins-hand.svg",
+      icon: "icons/coins-hand.svg",
       text: "Payments",
       link: "#",
     },
     {
-      icon: "users.svg",
+      icon: "icons/users.svg",
       text: "Application",
       link: "#",
     },

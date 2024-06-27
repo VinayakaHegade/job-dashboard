@@ -23,7 +23,7 @@ export default function NavMenuItem({
           {hasNotification && (
             <Image
               className="absolute right-[-2px] top-[-2px]"
-              src="orange-dot.svg"
+              src="icons/orange-dot.svg"
               alt=""
               width={6}
               height={6}

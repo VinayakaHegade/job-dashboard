@@ -11,14 +11,14 @@ export default function Badge({ status }: BadgeProps) {
       bgColor: "bg-emerald-75",
       textColor: "text-emerald-750",
       borderColor: "border-emerald-250",
-      icon: "green-dot.svg",
+      icon: "icons/green-dot.svg",
     },
     closed: {
       text: "Closed",
       bgColor: "bg-red-50",
       textColor: "text-red-700",
       borderColor: "border-red-200",
-      icon: "gray-dot.svg",
+      icon: "icons/gray-dot.svg",
     },
   };
 
