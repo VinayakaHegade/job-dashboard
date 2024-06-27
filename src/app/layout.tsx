@@ -1,12 +1,7 @@
 import type { Metadata } from "next";
-import { Poppins } from "next/font/google";
+import { generalSans, satoshi } from "./fonts";
 import "./globals.css";
 import Header from "@/components/layouts/header/Header";
-
-const poppins = Poppins({
-  subsets: ["latin"],
-  weight: ["400","700"],
-});
 
 export const metadata: Metadata = {
   title: "Clade",
@@ -19,12 +14,12 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
+    <html lang="en" className={`${generalSans.variable} ${satoshi.variable}`}>
       <body
-        className={`${poppins.className} min-h-screen max-w-[1728px] mx-auto`}
+        className={`${generalSans.className} min-h-screen max-w-[1728px] mx-auto`}
       >
         <Header />
-        {children}
+        <main>{children}</main>
       </body>
     </html>
   );

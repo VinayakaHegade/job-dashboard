@@ -8,7 +8,7 @@ export default function Tab({ label, isActive, onClick }: TabProps) {
   return (
     <button
       className={`${
-        isActive ? "text-red-650" : "text-zinc-550"
+        isActive ? "text-red-650" : "text-zinc-450"
       } focus:outline-none relative`}
       onClick={onClick}
     >

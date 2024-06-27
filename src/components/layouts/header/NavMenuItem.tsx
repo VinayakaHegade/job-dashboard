@@ -31,7 +31,7 @@ export default function NavMenuItem({
           )}
           <Image src={icon} alt="" width={24} height={24} />
         </div>
-        <span className="text-xl leading-[30px] text-neutral-350">{text}</span>
+        <span className="text-xl text-neutral-350">{text}</span>
       </Link>
     </li>
   );
