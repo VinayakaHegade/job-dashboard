@@ -1,14 +1,24 @@
+"use client";
+
+import { useState } from "react";
 import NavMenuItem from "./NavMenuItem";
 
+interface MenuItem {
+  icon: string;
+  text: string;
+  link: string;
+  hasNotification?: boolean;
+}
+
 export default function NavMenu() {
-  interface MenuItem {
-    icon: string;
-    text: string;
-    link: string;
-    hasNotification?: boolean;
-  }
+  const [activeItem, setActiveItem] = useState<string>("Jobs");
 
   const menuItems: MenuItem[] = [
+    {
+      icon: "icons/briefcase.svg",
+      text: "Jobs",
+      link: "#",
+    },
     {
       icon: "icons/message-square.svg",
       text: "Messages",
@@ -20,22 +30,18 @@ export default function NavMenu() {
       text: "Payments",
       link: "#",
     },
-    {
-      icon: "icons/users.svg",
-      text: "Application",
-      link: "#",
-    },
   ];
 
   return (
-    <ul className="lg:max-h-[74px] flex gap-10 pt-6 pb-5 pl-[46px] pr-[31px] border-[0.5px] border-solid border-gray-350 rounded-[36px] shadow-[inset_0_4px_4px_rgba(0,0,0,0.25)]">
+    <nav className="flex gap-[50px] p-[7px] border-[0.5px] border-solid border-gray-350 rounded-[36px]">
       {menuItems.map((item, index) => (
         <NavMenuItem
           key={index}
-          className={index === 0 ? "mr-[35px]" : ""}
           {...item}
+          isActive={activeItem === item.text}
+          onClick={() => setActiveItem(item.text)}
         />
       ))}
-    </ul>
+    </nav>
   );
 }

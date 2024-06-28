@@ -12,7 +12,7 @@ const Tabs = () => {
   };
 
   return (
-    <nav className="pl-[100px] pr-5 pt-5 pb-[1px] w-full text-xl font-medium border-y border-solid border-logo-bg text-zinc-500 max-md:px-5 max-md:max-w-full">
+    <nav className="pl-[100px] pr-5 pt-[19px] w-full text-xl font-medium border-y border-solid border-logo-bg text-zinc-500 max-md:px-5 max-md:max-w-full">
       <TabBar tabs={tabs} activeTab={activeTab} onTabChange={handleTabChange} />
     </nav>
   );
