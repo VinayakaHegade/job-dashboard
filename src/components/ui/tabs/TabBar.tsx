@@ -8,7 +8,7 @@ type TabBarProps = {
 
 export default function TabBar({ tabs, activeTab, onTabChange }: TabBarProps) {
   return (
-    <section className="flex gap-5 justify-between ml-5 max-w-full w-[608px] max-md:flex-wrap">
+    <section className="flex gap-6 flex-wrap justify-between md:justify-start md:gap-x-[72px]">
       {tabs.map((tab) => (
         <Tab
           key={tab}
