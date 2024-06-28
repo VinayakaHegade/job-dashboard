@@ -1,6 +1,6 @@
 # Job Preview Dashboard
 
-A modern job preview dashboard built with Next.js, TypeScript, and Tailwind CSS, featuring custom-built components without relying on any external component libraries. This project aims for a pixel-perfect implementation of the [original design](https://www.figma.com/design/f65mNkOZUSXdWRiPtZsHuX/Job-preview-dashboard-(Copy)?node-id=0-1&t=KTNQCbRpgMJtW2w4-1).
+A modern job preview dashboard built with Next.js, TypeScript, and Tailwind CSS, featuring custom-built components without relying on any external component libraries. This project aims for a pixel-perfect desktop ui implementation of the [original design](https://www.figma.com/design/f65mNkOZUSXdWRiPtZsHuX/Job-preview-dashboard-(Copy)?node-id=0-1&t=KTNQCbRpgMJtW2w4-1).
 
 [`Figma Link`](https://www.figma.com/design/f65mNkOZUSXdWRiPtZsHuX/Job-preview-dashboard-(Copy)?node-id=0-1&t=KTNQCbRpgMJtW2w4-1)
 [`Live Link`](https://cladedashboard.vercel.app)
