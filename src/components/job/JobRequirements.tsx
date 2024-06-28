@@ -8,7 +8,7 @@ export default function JobRequirements() {
   ];
 
   return (
-    <section className="flex gap-16 py-8 pr-6 pl-[100px]">
+    <section className="flex gap-5 md:gap-16 p-5 flex-wrap md:flex-nowrap md:py-8 md:pr-6 md:pl-[100px]">
       <div className="flex flex-col gap-2 max-w-[170px] w-full">
         <label className="text-sm/[18.9px] font-medium text-neutral-550">
           Skills Required
@@ -28,7 +28,9 @@ export default function JobRequirements() {
       </div>
 
       <div className="flex flex-col gap-2 max-w-[170px] w-full">
-        <label className="text-sm/[18.9px] font-medium text-neutral-550">Type</label>
+        <label className="text-sm/[18.9px] font-medium text-neutral-550">
+          Type
+        </label>
         <p className="text-base/[21.6px] font-semibold text-neutral-750">
           Full time
         </p>

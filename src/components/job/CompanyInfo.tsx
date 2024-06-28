@@ -12,7 +12,7 @@ export default function CompanyInfo() {
   ];
 
   return (
-    <section className="flex flex-col gap-4 pt-8 pb-9 pl-[100px] pr-6">
+    <section className="flex flex-col gap-4 p-5 md:pt-8 md:pb-9 md:pl-[100px] md:pr-6">
       <div className="flex items-center gap-3 p-2.5 pl-0">
         <Image
           src="icons/atlassian-logo.svg"

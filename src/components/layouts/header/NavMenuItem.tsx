@@ -28,7 +28,7 @@ export default function NavMenuItem({
       className={`flex gap-2 items-center cursor-pointer font-medium rounded-[49px] pt-4 pb-[15px] px-[15px] ${
         isActive
           ? "bg-red-650 text-white !pt-3.5 !pb-[13px] !px-[13px] border-2 border-solid border-border"
-          : "text-neutral-350"
+          : "text-neutral-350 hover:bg-gray-100"
       }`}
       onClick={onClick}
     >

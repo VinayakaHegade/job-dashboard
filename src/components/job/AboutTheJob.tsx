@@ -1,6 +1,6 @@
 export default function AboutTheJob() {
   return (
-    <section className="flex flex-col gap-2 py-8 pr-6 pl-[100px]">
+    <section className="flex flex-col gap-2 p-5 md:py-8 md:pr-6 md:pl-[100px]">
       <h2 className="text-sm/[18.9px] font-medium text-neutral-550">
         About the job
       </h2>

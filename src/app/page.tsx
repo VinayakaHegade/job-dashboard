@@ -11,7 +11,7 @@ export default function Home() {
   return (
     <>
       <Tabs />
-      <article className="flex">
+      <article className="flex flex-wrap lg:flex-nowrap">
         <section className="w-full">
           <JobHeader />
           <Divider />
@@ -21,7 +21,7 @@ export default function Home() {
           <Divider />
           <CompanyInfo />
         </section>
-        <aside className="flex flex-col gap-6 bg-background border-solid border-l border-logobg shadow-[0_4px_4px_rgba(0,0,0,0.25)] py-9 px-6 max-w-[409px] w-full">
+        <aside className="flex flex-col gap-6 bg-background border-solid border-l border-logobg shadow-[0_4px_4px_rgba(0,0,0,0.25)] py-9 px-6 max-w-[409px] w-full mx-auto">
           <JobActions />
           <JobStats/>
         </aside>

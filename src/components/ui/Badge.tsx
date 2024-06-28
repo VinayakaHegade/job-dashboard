@@ -26,7 +26,7 @@ export default function Badge({ status }: BadgeProps) {
 
   return (
     <div
-      className={`flex gap-1 py-px pr-[7px] pl-[5px] text-xs/[18px] font-medium text-center whitespace-nowrap rounded-full border border-solid ${config.bgColor} ${config.textColor} ${config.borderColor}`}
+      className={`flex gap-1 shrink-0 py-px pr-[7px] pl-[5px] text-xs/[18px] font-medium text-center whitespace-nowrap rounded-full border border-solid ${config.bgColor} ${config.textColor} ${config.borderColor}`}
     >
       <Image
         src={config.icon}

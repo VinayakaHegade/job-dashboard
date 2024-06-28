@@ -33,7 +33,7 @@ export default function NavMenu() {
   ];
 
   return (
-    <nav className="flex gap-[50px] p-[7px] border-[0.5px] border-solid border-gray-350 rounded-[36px]">
+    <nav className="hidden lg:flex gap-[50px] p-[7px] border-[0.5px] border-solid border-gray-350 rounded-[36px]">
       {menuItems.map((item, index) => (
         <NavMenuItem
           key={index}
