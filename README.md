@@ -1,4 +1,5 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+[`Figma Link`](https://www.figma.com/design/f65mNkOZUSXdWRiPtZsHuX/Job-preview-dashboard-(Copy)?node-id=0-1&t=KTNQCbRpgMJtW2w4-1)
+[`Live Link`](https://cladedashboard.vercel.app)
 
 ## Getting Started
 
