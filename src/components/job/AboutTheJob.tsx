@@ -5,7 +5,7 @@ export default function AboutTheJob() {
         About the job
       </h2>
       <div className="pb-2.5 text-base leading-7 font-medium text-neutral-750">
-        <ol className="list-decimal pl-[1.2rem]">
+        <ol className="list-decimal pl-4">
           <li>Handle the UI/UX research design</li>
           <li>
             Work on researching on latest web applications designs &amp; trends
